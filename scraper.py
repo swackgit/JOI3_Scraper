@@ -71,7 +71,7 @@ while next_page:
         # find next page link
         npl = bool(soup.find(rel="next"))
         next_page = npl
-        with open("/var/www/python/JOI3_scraper/variables.py", 'w') as w:
+        with open("/var/www/python/JOI3_Scraper/variables.py", 'w') as w:
             w.write(f"start_page = {i}")
         if next_page is False:
             break
