@@ -77,7 +77,7 @@ while next_page:
             break
 
 
-with open('/var/www/html/rss/swack.rss', 'w', encoding="utf-8") as f:
+with open('/var/www/html/JOI.rss', 'w', encoding="utf-8") as f:
     f.write(f"{rss_opening_tags}")
     for x in range(len(usernames)):
         f.write(f"<item>\n<title>{'{:0>4}'.format(post_numbers[x])} - {usernames[x]}</title>\n"
